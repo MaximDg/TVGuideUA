@@ -1,0 +1,258 @@
+/*css для поисковика*/
+.content{
+	margin-top: 50px;
+}
+.red{
+	color: #ff0000;
+}
+.form-control-feedback{
+	right: 10px;
+}
+input.error {
+	border: 1px solid #ff0000;
+}
+label.error {
+	color: #ff0000;
+	font-weight: normal;
+}
+
+
+/*остальное*/
+.background-header {
+	background: #555;
+}
+
+.background {
+	background-image: url(../img/images.jpg);
+}
+
+#content {
+	background-image: url(../img/images.jpg);
+}
+
+.vs {
+	float: left;
+	text-align: center;
+	font-size: 200px;
+	margin-top: 50px;
+}
+
+.lilili{
+	background: #252525;
+}
+
+.no-films{
+	text-align: center;
+	color: #f66;
+}
+@media screen and (max-width: 1199px) {
+.vs {
+display: none;
+    }
+.col-lg-2 .breadcrumb{
+		display: none;
+	}
+
+}
+
+.lilili li{
+		background: #fff;
+		width: 100px;
+		padding: 5px;
+	}
+
+.vs img {
+	width: 150px;
+}
+
+.shadow {
+
+	box-shadow: 10px -10px 20px rgba(0,0,0,0.5);
+}
+
+.senk {
+	font-size: 12px;
+}
+
+.post-heading h3 {
+	text-align: center;
+	color: #68A4C4;
+}
+
+.table {
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+.table th {
+	text-align: center;
+	font-size: 18px;
+}
+.td {
+	padding-left: 16px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.table-canal{
+	 background: #fff;
+}
+
+.table-canal a{
+	color: #000;
+	font-weight: bold;
+}
+
+.widget h4{
+	color: #68A4C4;
+	text-align: center;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.lilili li{
+		width: 13%;
+	}
+
+	.lilili img{
+		width: 70%;
+	}
+
+	.lilili{
+		width: 100%;
+	}	
+
+	.col-lg-2 .breadcrumb{
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.lilili li{
+		width: 13%;
+	}
+
+	.lilili img{
+		width: 70%;
+	}
+
+	.lilili{
+		width: 100%;
+	}	
+
+	.col-lg-2 .breadcrumb{
+		display: block;
+	}
+
+	.lilili li{
+		width: 13%;
+	}
+	.table {
+		padding: 5px;
+		color: white;
+		font-weight: bold;
+	}
+	.table th {
+		text-align: center;
+		font-size: 12px;
+	}
+	.table td {
+		padding-left: 8px;
+		text-align: center;
+		font-weight: normal;
+		font-size: 10px;
+	}
+	td.td-name {
+		text-align: left;
+		font-weight: bolder;
+	}
+}
+
+@media (max-width: 630px) {
+	.lilili li:first-child {
+	    padding-top: 25px;
+		}
+	.table {
+		padding: 5px;
+		color: white;
+		font-weight: bold;
+	}
+	.table th {
+		text-align: center;
+		font-size: 14px;
+	}
+	.table td {
+		padding-left: 8px;
+		text-align: center;
+		font-weight: normal;
+		font-size: 10px;
+	}
+	td.td-name {
+		text-align: left;
+		font-weight: bolder;
+	}
+}
+
+
+.fancybox-title-inside-wrap p {
+	display: none;
+}
+.fancybox-title-inside-wrap h4 {
+	text-align: center;
+}
+h2.heading {
+	color: #68A4C4;
+	text-align: center;
+}
+
+.design h3 {
+	color: #eee;
+	text-align: center;
+}
+.overlay-img h5 {
+	text-align: center;
+}
+.overlay-img img {
+	width: 45%;
+	padding: 2px;
+}
+.design img.general-thumb {
+	width: 30%;
+}
+li.item-thumbs {
+	display: none;
+}
+.description h4 {
+	color: #888;
+}
+.description p {
+	color: white;
+	font-size: 14px;	
+}
+.description span {
+	color: #888;
+	font-weight: bolder;
+	font-size: 16px;	
+}
+.film-id {
+	text-align: center;
+	color: #68A4C4;
+}
+.design h3 {
+	text-align: center;
+	color: white;
+}
+
+.form-color {
+	color: #68A4C4;
+}
+.rev-name {
+	text-align: right;
+}
+.form-h5 {
+	text-align: center;
+	color: #888;
+}
